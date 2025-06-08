@@ -138,7 +138,7 @@ def main():
         with cols[1]:
             # Числовые признаки
             input_values['Age'] = st.number_input("Возраст", min_value=18, max_value=100, value=30, key='Age')
-            input_values['Income'] = st.number_input("Доход (годовой)", min_value=0, value=50000, key='Income')
+            input_values['Income'] = st.number_input("Ежемесячный доход", min_value=0, value=50000, key='Income')
             input_values['Experience'] = st.number_input("Опыт работы (лет)", min_value=0, max_value=50, value=3,
                                                         key='Experience')
             input_values['Amount'] = st.number_input("Сумма кредита", min_value=0, value=10000, key='Amount')
